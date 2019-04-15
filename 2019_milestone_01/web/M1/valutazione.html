@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Articolo</title>
+        <meta name="author" content="Lorenzo Malara">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, PHP, MySQL, AMM">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta name="description" content="Un articolo">
+    </head>
+    <body>
+        <header>
+            <img title="logo" src="logo.svg" width=250 alt="Logo">
+        </header>
+        <nav></nav>
+        <article>
+            <h1>Articolo</h1>
+            <h3>Un titolo molto accattivante</h3>
+            <p id="author"><small>Piero Fasulli</small></p>
+            <p id="date"><small>30/02/19</small></p>
+            <p id="category"><small>HTML, CSS</small></p>
+            <figure>
+                <img title="immagine_notizia" src="person-being-interviewed.jpg" width=500>
+                <figcaption>"Rivoluzionario."</figcaption>
+            </figure>
+            <p>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico. <br>
+                Testo generico. Testo generico. Testo generico. Testo generico. Testo generico.
+            </p>
+        </article>
+        <aside>
+            <form class="cerca">
+                <input type="text" value="Cerca">
+            </form>
+            <br>
+            <div>
+                <a href="fake">Categorie</a>
+                <ul class="not_here">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Servlet</li>
+                    <li>JSP</li>
+                    <li>JavaScript</li>
+                    <li>Ajax</li>
+                </ul>
+            </div>
+            <div>
+                <a href="fake">Autori</a>
+                <ul class="not_here">
+                    <li>Pinco Panco</li>
+                    <li>Panco Pinco</li>
+                </ul>
+            </div>
+        </aside>
+        <section>
+            <h3>Valutazione</h3><br>
+            <form method="post" class="new_art">
+                <label>Voto:</label><br>
+                <input type="radio" name="voto" value="uno"> 1<br>
+                <input type="radio" name="voto" value="due"> 2<br>
+                <input type="radio" name="voto" value="tre"> 3<br>
+                <input type="radio" name="voto" value="quattro"> 4<br>
+                <input type="radio" name="voto" value="cinque"> 5<br>
+                <br>
+                <label for="comm_aut">Commenti per gli autori:</label>
+                <input type="text" id="comm_aut" name="commenti_a"><br>
+                
+                <label for="comm_org">Commenti per gli organizzatori:</label>
+                <input type="text" id="comm_org" name="commenti_o"><br>
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <footer>
+            <div><small>Brought to you by Awful Sites Inc.</small></div>
+        </footer>
+    </body>
+</html>

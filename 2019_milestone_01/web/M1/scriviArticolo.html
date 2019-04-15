@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Scrivi</title>
+        <meta name="author" content="Lorenzo Malara">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, PHP, MySQL, AMM">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta name="description" content="Un form per l'inserimento di un nuovo articolo">
+    </head>
+    <body>
+        <header>
+            <img title="logo" src="logo.svg" width=250 alt="Logo">
+        </header>
+        <nav></nav>
+        <section>
+            <h3>Scrivi un articolo</h3><br>
+            <form method="post" class="new_art">
+                <label for="titolo">Titolo:</label>
+                <input type="text" id="titolo" name="titolo"><br>
+                
+                <label for="autore">Nuovo autore:</label>
+                <input type="text" id="autore" name="autore"><br>
+                
+                <label for="data">Data:</label>
+                <input type="text" id="data" name="data"><br>
+                
+                <label for="immagine">Immagine (URL):</label>
+                <input type="text" id="immagine" name="immagine"><br>
+                
+                <label for="contenuto">Contenuto:</label>
+                <input type="text" id="contenuto" name="contenuto"><br><br>
+                
+                <label>Categoria:</label><br>
+                <input type="checkbox" name="categoria" value="politica"> HTML<br>
+                <input type="checkbox" name="categoria" value="esteri"> CSS<br>
+                <input type="checkbox" name="categoria" value="cronaca"> Servlet<br>
+                <input type="checkbox" name="categoria" value="economia"> JSP<br>
+                <input type="checkbox" name="categoria" value="sport"> JavaScript<br>
+                <input type="checkbox" name="categoria" value="cultura"> AJAX<br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <aside>
+            <form class="cerca">
+                <input type="text" value="Cerca">
+            </form>
+            <br>
+            <div>
+                <a href="fake">Categorie</a>
+                <ul class="not_here">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Servlet</li>
+                    <li>JSP</li>
+                    <li>JavaScript</li>
+                    <li>Ajax</li>
+                </ul>
+            </div>
+            <div>
+                <a href="fake">Autori</a>
+                <ul class="not_here">
+                    <li>Pinco Panco</li>
+                    <li>Panco Pinco</li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <div><small>Brought to you by Awful Sites Inc.</small></div>
+        </footer>
+    </body>
+</html>

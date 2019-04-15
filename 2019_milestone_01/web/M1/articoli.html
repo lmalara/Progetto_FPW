@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Articoli</title>
+        <meta name="author" content="Lorenzo Malara">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML, CSS, PHP, MySQL, AMM">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta name="description" content="Un archivio di articoli">
+    </head>
+    <body>
+        <header>
+            <img title="logo" src="logo.svg" width=250 alt="Logo">
+        </header>
+        <nav></nav>
+        <section>
+            <h3>I miei articoli</h3>
+            <table border="1">
+                <tr class="headerrow">
+                    <th>Date</th>
+                    <th>Title</th>
+                    <th>State</th>
+                    <th>Modify</th>
+                    <th>Delete</th>
+                </tr>
+                <tr>
+                    <td>01/01/01</td>
+                    <td>Title01</td>
+                    <td>Aperto</td>
+                    <td><button type="button">Modify</button></td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr class="evenrow">
+                    <td>02/02/02</td>
+                    <td>Title02</td>
+                    <td>In valutazione</td>
+                    <td>_</td>
+                    <td><button type="button">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>03/03/03</td>
+                    <td>Title03</td>
+                    <td>Accettato</td>
+                    <td>_</td>
+                    <td>_</td>
+                </tr>
+                <tr class="evenrow">
+                    <td>04/04/04</td>
+                    <td>Title04</td>
+                    <td>Rifiutato</td>
+                    <td>_</td>
+                    <td>_</td>
+                </tr>
+            </table>
+            <br>
+            <form action="scriviArticolo.html">
+                <input type="submit" value="Add a new article"/>
+            </form>
+        </section>
+        <aside>
+            <form class="cerca">
+                <input type="text" value="Cerca">
+            </form>
+            <br>
+            <div>
+                <a href="fake">Categorie</a>
+                <ul class="not_here">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Servlet</li>
+                    <li>JSP</li>
+                    <li>JavaScript</li>
+                    <li>Ajax</li>
+                </ul>
+            </div>
+            <div>
+                <a href="fake">Autori</a>
+                <ul class="not_here">
+                    <li>Pinco Panco</li>
+                    <li>Panco Pinco</li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <div><small>Brought to you by Awful Sites Inc.</small></div>
+        </footer>
+    </body>
+</html>
